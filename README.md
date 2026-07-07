@@ -15,6 +15,7 @@ A modular, production-ready Python application for assigning Secret Santa pairs 
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Input/Output Format](#-inputoutput-format)
+- [Visual Diagrams](#visual-diagrams)
 
 
 ## ✨ Features
@@ -378,7 +379,7 @@ Diana Prince,diana.prince@company.com
 python -m src.main employees_sample.csv
 ```
 
-### Visual Diagrams
+## Visual Diagrams
 
 For detailed visual understanding, refer to the following diagrams: 
 
