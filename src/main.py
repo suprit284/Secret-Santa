@@ -102,9 +102,11 @@ class SecretSantaApp:
 def main():
     """CLI entry point."""
     # Configuration
-    EMPLOYEES_FILE = r"C:\Users\samko\Downloads\Employee-List.csv"
-    PREVIOUS_FILE = r"C:\Users\samko\Downloads\secret_santa_assignments_20260707_115929.csv"
-    OUTPUT_DIR = r"C:\Users\samko\Downloads"
+    
+    
+    EMPLOYEES_FILE = "employees.csv"  # Place file in project root
+    PREVIOUS_FILE = "previous_assignments.csv"  # Optional
+    OUTPUT_DIR = "outputs"  # Creates outputs folder in project root
     
     try:
         # Create output file with timestamp
