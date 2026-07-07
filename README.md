@@ -98,7 +98,7 @@ The application follows clean separation of concerns with five main modules:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/secret-santa.git
+   git clone https://github.com/suprit284/Secret-Santa.git
    cd secret-santa
    ```
 
