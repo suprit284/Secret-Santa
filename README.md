@@ -49,3 +49,38 @@ Design and implement a Secret Santa assignment system that:
 7. Outputs the assignments to a CSV file with 4 columns
 
 ## 📁 Project Structure
+
+secret-santa/
+├── src/
+│ ├── init.py
+│ ├── models.py # Data models (Employee, Assignment)
+│ ├── validators.py # Validation logic
+│ ├── assigner.py # Core assignment algorithm
+│ ├── file_handler.py # CSV I/O operations
+│ └── main.py # Main application
+├── tests/
+│ ├── init.py
+│ ├── test_validators.py # Validator unit tests
+│ ├── test_assigner.py # Assigner unit tests
+│ ├── test_file_handler.py # File handler unit tests
+│ └── test_integration.py # End-to-end integration tests
+├── requirements.txt # Project dependencies
+├── README.md # Documentation
+└── .gitignore # Git ignore file
+
+
+## 🏗️ Architecture
+
+### Module Overview
+
+The application follows clean separation of concerns with five main modules:
+
+| Module | Purpose | Key Classes/Functions |
+|--------|---------|----------------------|
+| **models.py** | Data models | `Employee`, `Assignment` |
+| **validators.py** | Validation logic | `AssignmentValidator` |
+| **assigner.py** | Core algorithm | `SecretSantaAssigner` |
+| **file_handler.py** | File operations | `FileHandler` |
+| **main.py** | Application orchestration | `SecretSantaApp` |
+
+
