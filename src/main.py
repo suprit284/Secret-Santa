@@ -104,9 +104,10 @@ def main():
     # Configuration
     
     
-    EMPLOYEES_FILE = r"employees.csv" # Place file in project root
-    PREVIOUS_FILE = None  # Optional
-    OUTPUT_DIR =  r"Outputs" # Creates outputs folder in project root
+    EMPLOYEES_FILE = r"path " # Place file in project root
+    PREVIOUS_FILE = None   # Optional or in case of previous year file use 
+    # PREVIOUS_FILE = r"C:\path\to\your\previous_assignments.csv"  # Uncomment to use
+    OUTPUT_DIR =  r"C:\Users\samko\Downloads" # Creates outputs folder in project root
     
     try:
         # Create output file with timestamp
