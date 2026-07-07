@@ -86,3 +86,39 @@ The application follows clean separation of concerns with five main modules:
 | **main.py** | Application orchestration | `SecretSantaApp` |
 
 
+
+## 📦 Installation
+
+### Prerequisites
+
+- Python 3.8 or higher
+- pip (Python package installer)
+
+### Step-by-Step Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/secret-santa.git
+   cd secret-santa
+   ```
+
+2. **Create a virtual environment (recommended):**
+   ```bash
+   # Windows
+   python -m venv venv
+   venv\Scripts\activate
+
+   # Mac/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Verify installation:**
+   ```bash
+   python -c "import pandas; print('✅ Pandas installed successfully')"
+   ```
