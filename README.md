@@ -50,23 +50,25 @@ Design and implement a Secret Santa assignment system that:
 
 ## 📁 Project Structure
 
+```
 secret-santa/
 ├── src/
-│ ├── init.py
-│ ├── models.py # Data models (Employee, Assignment)
-│ ├── validators.py # Validation logic
-│ ├── assigner.py # Core assignment algorithm
-│ ├── file_handler.py # CSV I/O operations
-│ └── main.py # Main application
+│   ├── __init__.py
+│   ├── models.py           # Data models (Employee, Assignment)
+│   ├── validators.py       # Validation logic
+│   ├── assigner.py         # Core assignment algorithm
+│   ├── file_handler.py     # CSV I/O operations
+│   └── main.py             # Main application
 ├── tests/
-│ ├── init.py
-│ ├── test_validators.py # Validator unit tests
-│ ├── test_assigner.py # Assigner unit tests
-│ ├── test_file_handler.py # File handler unit tests
-│ └── test_integration.py # End-to-end integration tests
-├── requirements.txt # Project dependencies
-├── README.md # Documentation
-└── .gitignore # Git ignore file
+│   ├── __init__.py
+│   ├── test_validators.py   # Validator unit tests
+│   ├── test_assigner.py     # Assigner unit tests
+│   ├── test_file_handler.py # File handler unit tests
+│   └── test_integration.py  # End-to-end integration tests
+├── requirements.txt         # Project dependencies
+├── README.md               # Documentation
+└── .gitignore             # Git ignore file
+```
 
 
 ## 🏗️ Architecture
