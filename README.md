@@ -384,6 +384,6 @@ For detailed visual understanding, refer to the following diagrams:
 
 | Diagram | File | Description |
 |---------|------|-------------|
-| 📊 Project Structure Diagram | [`diagrams/Project_Structure.mmd`](diagrams/Project_Structure.mmd) | Complete project structure and module organization |
-| 🏗️ Class Diagram | [`diagrams/Class_Architetcure_Dependencies.mmd`](diagrams/Class_Architetcure_Dependencies.mmd) | Class relationships, dependencies, and inheritance |
-| 🔄 Data Flow Diagram | [`diagrams/Test_Architecture.mmd`](diagrams/Test_Architecture.mmd) |  Testing |
+| 📊 Project Structure Diagram | [`diagrams/Project_Structure.mmd`](diagrams/Project_Structure.png) | Complete project structure and module organization |
+| 🏗️ Class Diagram | [`diagrams/Class_Architetcure_Dependencies.mmd`](diagrams/Class_Architetcure_Dependencies.png) | Class relationships, dependencies, and inheritance |
+| 🔄 Data Flow Diagram | [`diagrams/Test_Architecture.mmd`](diagrams/Test_Architecture.png) |  Testing |
